@@ -4,7 +4,12 @@ TDD is the best way to learn and to secure your software. This project tries to 
 
 ### Notes
 
-To run benchmarks run:
+To run benchmarks tests run:
 ```shell
 go test -bench=.
+```
+
+To report coverage run:
+```shell
+go test -cover
 ```
