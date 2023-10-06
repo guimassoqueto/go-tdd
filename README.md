@@ -1,10 +1,22 @@
 ## Golang TDD
 
-TDD is the best way to learn and to secure your software. This project tries to cover the majority of challenges in tests while building an reliable software architecture in Go.
+`
+In Test Driven Development Tests are created before actual code.
+Than developers run the (UNIT) tests and Tests fail (because there is no code)
+Than developer Write the code to pass the tests and Run the tests again.
+Tests will PASS, against MVP(minimum viable product) code. 
+lastly they REFACTOR YOUR CODE -> RE-DO ALL STEPS
+`  
+<br/><br/>
+`
+Write tests. Run the code: it fails. 
+because there is no code. Write code. 
+Run the tests again: they will pass. Refactor, and re-do.
+`
 
 ### Notes
 
-To run benchmarks tests run:
+To benchmarks lrun:
 ```shell
 go test -bench=.
 ```
