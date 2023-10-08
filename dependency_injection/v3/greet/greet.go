@@ -12,4 +12,5 @@ func Greet(writer io.Writer, name string) {
 
 func main() {
 	Greet(os.Stdout, "Elodie")
+	fmt.Printf("test")
 }
