@@ -25,3 +25,7 @@ To report coverage run:
 ```shell
 go test -cover
 ```
+
+### Recommended Books
+Concurrency in Go: Tools and Techniques for Developers - Katherine Cox-buday
+Go Programming Language - Allan A.A. Donovan
