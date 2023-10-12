@@ -6,14 +6,12 @@ func TestAdder(t *testing.T) {
 	t.Run("calc the sum of two integers", func(t *testing.T) {
 		got := Adder(2, 2)
 		expect := 4
-
 		assertCorrectValue(t, got, expect)
 	})
 
 	t.Run("calc the sum of three or more integers", func(t *testing.T) {
 		got := Adder(3, 2, 6)
 		expect := 11
-
 		assertCorrectValue(t, got, expect)
 	})
 
