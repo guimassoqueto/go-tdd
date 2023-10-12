@@ -18,12 +18,18 @@ Run the tests again: they will pass. Refactor, and re-do.
 
 To benchmarks lrun:
 ```shell
-go test -bench=.
+go test ./... -bench=.
 ```
 
 To report coverage run:
 ```shell
 go test -cover
+```
+
+To detect race conditions (on tests or in regular go files):
+```shell
+go run -race main.go
+go test ./... -race
 ```
 
 ### Recommended Books
