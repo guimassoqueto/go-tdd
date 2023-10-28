@@ -45,3 +45,5 @@ Go Programming Language - Allan A.A. Donovan
 
 
 ### Important Concepts to Fix
+[Approval Tests](https://approvaltests.com/)
+[More About Approval Tests](https://www.youtube.com/watch?v=zyM2Ep28ED8)
