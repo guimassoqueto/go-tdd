@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World</title>
+  <meta name="description" content="This is the best blog ever" lang="en">
+</head>
+<body>
+<nav role="navigation">
+  <div>
+    <h1>Budding Gopher's blog</h1>
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/about">about</a></li>
+      <li><a href="/archive">archive</a></li>
+    </ul>
+  </div>
+</nav>
+<main>
+
+<h1>Hello World</h1>
+<p>This is a description</p>
+Tags: <ul><li>go</li><li>tdd</li></ul>
+<footer>This is a footer</footer>
+
+</main>
+<footer>
+  <ul>
+    <li><a href="https://github.com/guimassoquetp">github</a></li>
+    <li><a href="https://linkedin.com/in/guimassoqueto">Linkedin</a></li>
+  </ul>
+</footer>
+</body>
+</html>
